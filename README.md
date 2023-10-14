@@ -17,7 +17,10 @@ Before VBGuestEd :
 - `sudo apt update` 
 - `sudo apt upgrade`
 - `sudo install build-essential linux-headers-$(uname -r)`
+- `sudo install git`
 
 After :
 - `ssh-keygen`
 - Github > Settings > SSH and GPG keys > New SSH keys > copy public key (file `id_rsa.pub` contents)
+- Github > AnsiblePC repo > Code > copy Clone with SSH (e.g. `git@github.com:FooBar/ansiblePC.git`)
+- go to home directory and then `git clone git@github.com:FooBar/ansiblePC.git`
