@@ -14,9 +14,12 @@
 
 ## Installs VM
 Before VBGuestEd : 
+
 	- `sudo apt update` 
 	- `sudo apt upgrade`
 	- `sudo install build-essential linux-headers-$(uname -r)`
+
 After :
+
 	- `ssh-keygen`
 	- Github > Settings > SSH and GPG keys > New SSH keys > copy public key (file `id_rsa.pub` contents)
