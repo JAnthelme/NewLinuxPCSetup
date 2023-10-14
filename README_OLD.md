@@ -20,7 +20,8 @@
 ### After VBGuestEd:
 - `sudo install git`
 - `sudo apt install ansible`
-- `ssh-keygen`
+- `ssh-keygen` or
+- - `ssh-keygen -t ed25519 -C "foobar"`
 - Github > Settings > SSH and GPG keys > New SSH keys > copy public key (file `id_rsa.pub` contents)
 - Github > AnsiblePC repo > Code > copy Clone with SSH (e.g. `git@github.com:FooBar/ansiblePC.git`)
 - go to home directory and then `git clone git@github.com:FooBar/ansiblePC.git`
