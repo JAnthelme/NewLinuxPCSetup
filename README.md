@@ -31,7 +31,7 @@
 - `git push`
 
 ### Quick Ansible test:
-in `/home` copy `local.yml`:
+in `/home/ansiblePC` copy `local.yml`:
 ```
 - hosts: localhost
   connection: local
@@ -42,3 +42,5 @@ in `/home` copy `local.yml`:
     apt:
       name: htop  
 ```
+- `git status` + `git add local.yml` + `git commit -m "first commit"`
+- `git push`
