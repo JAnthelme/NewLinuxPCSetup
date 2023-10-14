@@ -14,7 +14,6 @@
 
 ## Installs VM
 Before VBGuestEd : 
-
 	- `sudo apt update` 
 	- `sudo apt upgrade`
 	- `sudo install build-essential linux-headers-$(uname -r)`
